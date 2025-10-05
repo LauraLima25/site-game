@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Plus</title>
+  <style>
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      height: 100vh;
+      background: url('fundo.jpg') no-repeat center center/cover;
+      color: white;a
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      position: relative;
+    }
+
+    /* Overlay escuro */
+    body::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.7);
+      z-index: 0;
+    }
+
+    .container {
+      position: relative;
+      z-index: 1;
+      max-width: 800px;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 15px;
+      color: #00ff88;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+    }
+
+    h2 {
+      margin: 20px 0 10px;
+      font-size: 1.8rem;
+      color: #ffffff;
+    }
+
+    p {
+      margin-bottom: 15px;
+      font-size: 1.1rem;
+      line-height: 1.5;
+    }
+
+    ul {
+      list-style: none;
+      margin: 20px 0;
+    }
+
+    li {
+      margin: 10px 0;
+      font-size: 1.1rem;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      background: #00ff88;
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 6px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #00cc66;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🎮 Bem-vindo ao Game Plus 🎮</h1>
+    <p>O seu portal para o mundo dos games!</p>
+
+    <h2>🎮 Game Plus – O seu portal definitivo para o universo dos games!</h2>
+    <p>Aqui você encontra tudo o que precisa saber: qualidade dos jogos, requisitos de memória e desempenho, além de dicas exclusivas para turbinar sua experiência.</p>
+    
+    <ul>
+      <li>🔥 <strong>Ofertas imperdíveis</strong> com os melhores descontos chegam primeiro para você.</li>
+      <li>⚡ <strong>Acesso antecipado</strong>: jogue os lançamentos semanas antes de todo mundo.</li>
+      <li>🛡️ <strong>Compra segura</strong>: máxima proteção para sua máquina e tranquilidade total nas suas compras.</li>
+    </ul>
+
+    <p>No <strong>Game Plus</strong>, você não joga sozinho: <em>você joga na frente!</em> 🚀</p>
+  
+    <a href="explore.html" class="btn">Explore Agora</a>
+  </div>
+</body>
+</html>
